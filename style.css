@@ -54,13 +54,13 @@ hr {
 
 table {
     width: 100%;
-    border: 1px solid #666;
+    border: 1px solid gray;
     border-collapse: collapse;
     margin-bottom: 20px;
 }
 
 table, th, td {
-    border: 1px solid #666;
+    border: 1px solid gray;
     padding: 10px;
     text-align: left;
 }
@@ -74,7 +74,7 @@ ul {
     margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .container {
         padding: 15px;
     }
@@ -85,7 +85,7 @@ ul {
     }
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .container {
         padding: 10px;
     }
